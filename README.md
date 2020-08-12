@@ -43,6 +43,12 @@ Pre-requisites:
 - `./clear.sh test1.properties` -- this will remove remaining from `HOST_QUEUE=DEV.QUEUE.1`. You should have no messages left.
 
 
+## Multi Queue Test
+- `./run.sh PROCESS test1.properties` -- this will wait for a message on `HOST_QUEUE=DEV.QUEUE.1`.
+- `./put.sh test1.properties data.txt` -- this will put the data on `HOST_QUEUE=DEV.QUEUE.1`. The previous command will get the message from `HOST_QUEUE=DEV.QUEUE.1` and put it on `HOST_QUEUE=DEV.QUEUE.2`
+- `./get.sh dev.queue.2.properties` -- this will remove the 1 message from `HOST_QUEUE=DEV.QUEUE.2`.
+
+
 
 
 
