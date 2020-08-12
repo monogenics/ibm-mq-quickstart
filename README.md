@@ -23,6 +23,7 @@ Pre-requisites:
 - `./put.sh test1.properties data.txt` -- this will put the data on `HOST_QUEUE=DEV.QUEUE.1`. 
 
 <img width="300" align="right" alt="center" src="https://user-images.githubusercontent.com/30869911/90060721-24a0dc00-dcb3-11ea-95a1-5dde5df87c8e.png">
+
 - `./get.sh test1.properties` -- this will remove the data on `HOST_QUEUE=DEV.QUEUE.1`.
 
 ## Multiple Message Test
