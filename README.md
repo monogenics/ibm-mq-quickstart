@@ -11,7 +11,7 @@ Pre-requisites:
 - `docker images` (should show sucessfully built image with repository name my-ibmmq)
 - `docker run -it -p 1414:1414 -p 9443:9443 my-ibmmq`
 - `docker container ls -a` (should show STATUS and PORTS)
-- `docker inspect` (show external IP address - sometimes useful if localhost acts weird)
+- `docker inspect <CONTAINER ID>` (show external IP address - sometimes useful if localhost acts weird)
 
 ## Install Client
 
