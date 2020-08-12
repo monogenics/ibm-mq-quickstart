@@ -40,6 +40,8 @@ Pre-requisites:
 </p>
 
 - `./get.sh test1.properties` -- this will remove the 1 message from `HOST_QUEUE=DEV.QUEUE.1`. You should have 19 messages left.
+- `./clear.sh test1.properties` -- this will remove remaining from `HOST_QUEUE=DEV.QUEUE.1`. You should have no messages left.
+
 
 
 
