@@ -39,7 +39,7 @@ Pre-requisites:
  <img width="300" align="center" alt="multiple" src="https://user-images.githubusercontent.com/30869911/90062034-089e3a00-dcb5-11ea-8db8-69deaf3282c1.png">
 </p>
 
-- `./get.sh test1.properties` -- this will remove the data on `HOST_QUEUE=DEV.QUEUE.1`.
+- `./get.sh test1.properties` -- this will remove the 1 message from `HOST_QUEUE=DEV.QUEUE.1`. You should have 19 messages left.
 
 
 
