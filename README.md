@@ -20,7 +20,7 @@ Pre-requisites:
 - `vim test1.properties` file - you shouldn't have to change anything for a locally running queue. Otherwise, change `HOST_NAME` as necessary.
 
 ## Simple Test
-- `./put.sh test1.properties data.txt` -- this will put the data on `HOST_QUEUE=DEV.QUEUE.1`. <img width="230" align="right" alt="Screen Shot 2020-08-12 at 3 40 16 PM" src="https://user-images.githubusercontent.com/30869911/90060721-24a0dc00-dcb3-11ea-95a1-5dde5df87c8e.png">
+- `./put.sh test1.properties data.txt` -- this will put the data on `HOST_QUEUE=DEV.QUEUE.1`. <img width="300" align="right" alt="Screen Shot 2020-08-12 at 3 40 16 PM" src="https://user-images.githubusercontent.com/30869911/90060721-24a0dc00-dcb3-11ea-95a1-5dde5df87c8e.png">
 
 
 
