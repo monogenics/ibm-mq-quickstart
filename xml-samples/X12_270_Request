@@ -1,0 +1,33 @@
+<soap:Envelope
+    xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+    xmlns:cor="http://www.caqh.org/SOAP/WSDL/CORERule2.2.0.xsd">
+    <soap:Header>
+        <wss:Security
+            xmlns:wss="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext1.0.xsd">
+            <wss:UsernameToken>
+                <wss:Username>V999999</wss:Username>
+                <wss:Password>xxxxxxxx</wss:Password>
+            </wss:UsernameToken>
+        </wss:Security>
+    </soap:Header>
+    <soap:Body>
+        <cor:COREEnvelopeRealTimeRequest>
+            <PayloadType>X12_270_Request_005010X279A1</PayloadType>
+            <ProcessingMode>RealTime</ProcessingMode>
+            <PayloadID>f81d4fae-7dec-11d0-a765-00a0c91e6bf6</PayloadID>
+            <TimeStamp>2013-01-22T15:09:34Z</TimeStamp>
+            <SenderID>V999999</SenderID>
+            <ReceiverID>89070</ReceiverID>
+            <CORERuleVersion>2.2.0</CORERuleVersion>
+            <Payload>
+                <![CDATA[ISA*00* *00* *ZZ*V999999 *33*89070
+*130122*1509*^*00501*171107529*0*P*:~GS*HS*R999999*89070*20130122*1509*171107529*X*005010X279
+A1~ST*270*0001*005010X279A1~BHT*0022*13*536*20130122*1509~HL*1**20*1~NM1*PR*2*UNITED
+CONCORDIA*****NI*89070~HL*2*1*21*1~NM1*1P*1*PROVIDER*JOE****XX*1999999999~REF*TJ*99999
+9999~REF*Q4*BK9111840~HL*3*2*22*0~TRN*1*171107529*9CT
+EXAMPLE*TRADINGPARTNER~NM1*IL*1*DOE*JANE****MI*199999999~DMG*D8*19960605~DTP*291*
+D8*20130122~EQ*35~SE*15*0001~GE*1*171107529~IEA*1*171107529~]]>
+                <Payload>
+                </cor:COREEnvelopeRealTimeRequest>
+            </soap:Body>
+        </soap:Envelope>
